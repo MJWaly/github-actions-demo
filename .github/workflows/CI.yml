@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: windows-latest  # Change it to your OS
 
-    steps:
+    steps: 
       - name: Checkout code
         uses: actions/checkout@v2
 
